@@ -18,8 +18,8 @@ getProducto()
 
 
 var id = producto.map(function(bar){
-                return '<div class="card" style="width: 18rem;">'+'<div class="card-body">'+'<img src='+bar.image+' class="card-img-top" alt="">'+'</img>'+'<h5>'+bar.title+'</h5>'+'<br>'+'<p>'+bar.description+'</p>'+
-                "Más info"+'</a>'+'</div>'+'</div>';
-})
+                return '<div class="col-xs-12 col-sm-3">'+'<div class="card" style="width: auto;">'+'<div class="card-body">'+'<img src='+bar.image+' class="card-img-top" alt="">'+'</img>'+'<h5>'+bar.title+'</h5>'+'<br>'+'<p>'+bar.description+'</p>'+
+                "Más info"+'</a>'+'</div>'+'</div>'+'</div>';
+});
 document.getElementById("id").innerHTML = id;
 
